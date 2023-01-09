@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.cal-container{
+    /*border: solid blue 3px;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screendisplay{
+    border: solid blue 1px;
+    height: 100px;
+    width: 300px;
+}
+.cal-body{
+   /* border-top: solid blue 3px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-rw{
+    display: flex;
+   /* border: solid red 2px;*/
+   gap: 5px;
+   margin: 5px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
